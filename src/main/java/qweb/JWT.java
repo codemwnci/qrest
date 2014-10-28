@@ -25,7 +25,7 @@ public class JWT {
 	
 	public static String createToken(long id) throws JOSEException {
 		
-		JWSObject jwsObject = new JWSObject(new JWSHeader(JWSAlgorithm.HS256), new Payload("{\"username\": \"codemwnci\", \"id\": 1}"));
+		JWSObject jwsObject = new JWSObject(new JWSHeader(JWSAlgorithm.HS256), new Payload("{\"id\": "+id+"}"));
 		JWSSigner signer = new MACSigner(SECRET.getBytes());
 		jwsObject.sign(signer);
 		return jwsObject.serialize();
