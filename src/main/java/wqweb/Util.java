@@ -1,4 +1,4 @@
-package qweb;
+package wqweb;
 
 public class Util {
 

@@ -1,4 +1,4 @@
-package qweb;
+package wqweb;
 
 import java.io.*;
 import java.util.*;
@@ -11,7 +11,7 @@ import com.mchange.v2.c3p0.ComboPooledDataSource;
 
 import static java.lang.String.format;
 import static spark.Spark.*;
-import static qweb.Util.*;
+import static wqweb.Util.*;
 
 public class ApplicationBootstrap {
 

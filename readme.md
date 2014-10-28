@@ -7,7 +7,7 @@ These steps will get simpler in a later iteration, when the run scripts have bee
 1. Clone this git repo (or download zip). Expand to a location.
 2. Inside eclipse (or your IDE of choice) import an existing maven project
 3. Create a new project, with a pom.xml similar to the below sample
-4. Create a new Java class, annotated with @Controller, with an initiatliser block containing your routes, see example below
+4. Create a new Java class, annotated with @Controller, with an initialiser block containing your routes, see example below
 5. Create an app.conf if you intend to use JWT / DB or a custom port / custom static file location      
 6. Finally, when you run the application, using ApplicationBootstrap as the main class, all your Controllers on the classpath will automatically get picked up, and will be ready to roll! 
  
@@ -43,7 +43,7 @@ The second route is slightly more complex, as it uses JWT for auth tokens, a DB 
 
     package myapp;
 
-    import qweb.*;
+    import wqweb.*;
     import java.sql.*;
     import static spark.Spark.*;
 

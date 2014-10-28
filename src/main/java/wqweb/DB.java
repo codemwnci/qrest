@@ -1,4 +1,4 @@
-package qweb;
+package wqweb;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;

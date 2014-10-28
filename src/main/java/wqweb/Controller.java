@@ -1,4 +1,4 @@
-package qweb;
+package wqweb;
 
 import java.lang.annotation.*;
 
