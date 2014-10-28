@@ -29,7 +29,7 @@ public class ApplicationBootstrap {
 		}
 		
 		setPort(Integer.parseInt(getOrElse(props.getProperty("port"), "9000")));
-		externalStaticFileLocation("/Users/wayne/git/isitmygo/client");
+		externalStaticFileLocation(getOrElse(props.getProperty("public_dir"), "client"));
 		JWT.SECRET = props.getProperty("app.secret").trim();
 		
 		logger.info("Loading routes");
