@@ -1,0 +1,48 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>codemwnci</groupId>
+  <artifactId>wqweb</artifactId>
+  <version>0.0.1</version>
+  <packaging>jar</packaging>
+
+  <name>wqweb</name>
+  <url>https://github.com/codemwnci/wqweb</url>
+
+  <dependencies>
+  	<dependency>
+  		<groupId>com.sparkjava</groupId>
+  		<artifactId>spark-core</artifactId>
+  		<version>2.0.0</version>
+  	</dependency>
+  	<dependency>
+         <groupId>org.reflections</groupId>
+         <artifactId>reflections</artifactId>
+         <version>0.9.9</version>
+    </dependency>
+    <dependency> 
+  		<groupId>org.slf4j</groupId>
+  		<artifactId>slf4j-log4j12</artifactId>
+  		<version>1.7.7</version>
+	</dependency>
+	<dependency>
+		<groupId>com.mchange</groupId>
+		<artifactId>c3p0</artifactId>
+		<version>0.9.2.1</version>
+	</dependency>
+	<dependency>
+		<groupId>com.nimbusds</groupId>
+		<artifactId>nimbus-jose-jwt</artifactId>
+		<version>2.10.1</version>
+	</dependency>
+  </dependencies>
+  <organization>
+  	<name>Codemwnci</name>
+  	<url>https://github.com/codemwnci</url>
+  </organization>
+  <scm>
+  	<url>https://github.com/codemwnci/wqweb.git</url>
+  	<developerConnection>codemwnci</developerConnection>
+  </scm>
+</project>
