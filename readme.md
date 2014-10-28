@@ -12,25 +12,25 @@ These steps will get simpler in a later iteration, when the run scripts have bee
 6. Finally, when you run the application, using ApplicationBootstrap as the main class, all your Controllers on the classpath will automatically get picked up, and will be ready to roll! 
  
 
-    <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-      <modelVersion>4.0.0</modelVersion>
-      <groupId>codemwnci</groupId>
-      <version>0.0.1-SNAPSHOT</version>
-  
-      <dependencies>
-        <dependency>
-          <groupId>codemwnci</groupId>
-            <artifactId>wqweb</artifactId>
-            <version>0.0.1</version>
-        </dependency>
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.33</version>
-        </dependency>				
-      </dependencies>	
-      <artifactId>your-application-name</artifactId>
-    </project>  
+        <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+            <modelVersion>4.0.0</modelVersion>
+            <groupId>codemwnci</groupId>
+            <version>0.0.1-SNAPSHOT</version>
+            
+            <dependencies>
+                <dependency>
+                    <groupId>codemwnci</groupId>
+                    <artifactId>wqweb</artifactId>
+                    <version>0.0.1</version>
+                </dependency>
+                <dependency>
+                    <groupId>mysql</groupId>
+                    <artifactId>mysql-connector-java</artifactId>
+                    <version>5.1.33</version>
+                </dependency>				
+            </dependencies>	
+            <artifactId>your-application-name</artifactId>
+        </project>  
 
 
 ##Example##
