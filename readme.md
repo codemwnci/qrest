@@ -91,6 +91,8 @@ The second route is slightly more complex, as it uses JWT for auth tokens, a DB 
 
 The app confing allows you to configure the behaviour of the application, such as the port, static content location, database configuration and JWT security configuration.
 
+Copy the following code and place it inside a file named `app.conf` in the root of the project directory. Modify the settings to meet your needs. 
+
     app.secret=a-random-secret-string-for-JWT-security
 
     db.driver=com.mysql.jdbc.Driver            
@@ -103,8 +105,6 @@ The app confing allows you to configure the behaviour of the application, such a
 
     # defaults to '9000' if not present
     port=9000 
-
-
 
 
 ##Future Enhancements##
