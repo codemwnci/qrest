@@ -60,6 +60,10 @@ The second route is slightly more complex, as it uses JWT for auth tokens, a DB 
             get("/", (req, res) -> { 
                return "Hello World";
             });
+            
+            get("/api/person/:id", (req, res) -> { 
+               return "Hello from user ID " + req.params("id");
+            });
 		
 			// a POST route to add a new person into the database, first checking the JWT
 			post("/api/person/", (req, res) -> {
@@ -81,6 +85,24 @@ The second route is slightly more complex, as it uses JWT for auth tokens, a DB 
 	    }
     }
 
+
+
+##app.conf settings##
+
+The app confing allows you to configure the behaviour of the application, such as the port, static content location, database configuration and JWT security configuration.
+
+    app.secret=a-random-secret-string-for-JWT-security
+
+    db.driver=com.mysql.jdbc.Driver            
+    db.url=jdbc:mysql://localhost:3306/<your-dbname-here>
+    db.user=<your-dbusername-here>
+    db.pass=<your-dbpassword-here>
+
+    # defaults to 'client' if not present
+    public_dir=public
+
+    # defaults to '9000' if not present
+    port=9000 
 
 
 
