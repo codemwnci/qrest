@@ -10,9 +10,8 @@ These steps will get simpler in a later iteration, when the run scripts have bee
 4. Create a new Java class, annotated with @Controller, with an initialiser block containing your routes, see example below
 5. Finally, run the application with `mvn exec:java`, all your Controllers on the classpath will automatically get picked up, and will be ready to roll! Point your browser at `http://localhost:9000/` to see.
 
-*optinal*
+*optional* - Create an app.conf if you intend to use JWT / DB or a custom port / custom static file location      
 
-6. Create an app.conf if you intend to use JWT / DB or a custom port / custom static file location      
 
         <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
             <modelVersion>4.0.0</modelVersion>
