@@ -68,7 +68,7 @@ The second route is slightly more complex, as it uses JWT for auth tokens, a DB 
             // a POST route to add a new person into the database, first checking the JWT
             post("/api/person/", (req, res) -> {
 				
-                    long uid = JWT.getId(req);
+                long uid = JWT.getId(req);
 				
 	            String sql = "INSERT INTO ...";
 	            try (Connection conn = DB.getConn(); PreparedStatement ps = conn.prepareStatement(sql)) {
