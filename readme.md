@@ -1,6 +1,6 @@
 WQWeb is a wrapper around the Spark Framework, that aims to offer an opinionated view of how a web framework should be configured. The solution adds helpers for Database access, JWT (Json Web Token) and other utilities. It also allows the spark framework routes to be neatly split into several controllers, to more effectively partition your web application.
 
-#Set Up Guide#
+# Set Up Guide #
 
 These steps will get simpler in a later iteration, when the run scripts have been written. 
 
@@ -39,7 +39,7 @@ These steps will get simpler in a later iteration, when the run scripts have bee
         </project>  
 
 
-##Example##
+## Example ##
 
 The following is a simple controller, with two routes. 
 
@@ -87,7 +87,7 @@ The second route is slightly more complex, as it uses JWT for auth tokens, a DB 
 
 
 
-##app.conf settings##
+## app.conf settings ##
 
 The app confing allows you to configure the behaviour of the application, such as the port, static content location, database configuration and JWT security configuration.
 
@@ -107,7 +107,7 @@ Copy the following code and place it inside a file named `app.conf` in the root 
     port=9000 
 
 
-##Future Enhancements##
+## Future Enhancements ##
 
 play framework style scripts for
  - publish to maven central to remove steps 1&2 from the quick start
