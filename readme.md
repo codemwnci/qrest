@@ -111,7 +111,7 @@ Copy the following code and place it inside a file named `app.conf` in the root 
 
 play framework style scripts for
  - publish to maven central to remove steps 1&2 from the quick start
- - generating the application structure (wqweb new)
- - running the server (wqweb run)
+ - generating the application structure (qrest new)
+ - running the server (qrest run)
 
  
