@@ -49,7 +49,7 @@ The second route is slightly more complex, as it uses JWT for auth tokens, a DB 
 
     package myapp;
 
-    import wqweb.*;
+    import qrest.*;
     import java.sql.*;
     import static spark.Spark.*;
 
