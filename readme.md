@@ -1,4 +1,4 @@
-WQWeb is a wrapper around the Spark Framework, that aims to offer an opinionated view of how a web framework should be configured. The solution adds helpers for Database access, JWT (Json Web Token) and other utilities. It also allows the spark framework routes to be neatly split into several controllers, to more effectively partition your web application.
+QRest is a wrapper around the Spark Framework, that aims to offer an opinionated view of how a web framework should be configured. The solution adds helpers for Database access, JWT (Json Web Token) and other utilities. It also allows the spark framework routes to be neatly split into several controllers, to more effectively partition your web application.
 
 # Set Up Guide #
 
@@ -19,14 +19,14 @@ These steps will get simpler in a later iteration, when the run scripts have bee
             <version>0.0.1-SNAPSHOT</version>
               
             <properties>
-                <exec.mainClass>wqweb.ApplicationBootstrap</exec.mainClass>
+                <exec.mainClass>qrest.ApplicationBootstrap</exec.mainClass>
             </properties>
 
             
             <dependencies>
                 <dependency>
                     <groupId>codemwnci</groupId>
-                    <artifactId>wqweb</artifactId>
+                    <artifactId>qrest</artifactId>
                     <version>0.0.1</version>
                 </dependency>
                 <dependency>
